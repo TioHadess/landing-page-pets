@@ -63,7 +63,7 @@ export function Hero () {
                         <Image 
                         src={dogImg} 
                         alt='doguinho'
-                        className=' object-contain'
+                        className=' object-contain hover:scale-110 duration-300'
                         fill
                         sizes='(max-width: 768px) 0vw, 50vw'
                         quality={100}

@@ -1,7 +1,12 @@
 import { Hero } from "./_components/hero";
+import { About } from "./_components/about";
 
 export default function Home() {
   return(
-    <Hero/>
+    <main>
+      <Hero/>
+      <About/>
+    </main>
+    
   )
 }
