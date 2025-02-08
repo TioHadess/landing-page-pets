@@ -93,7 +93,7 @@ export function Services() {
 
                                         </div>
                                         
-                                        <div className='border-t border-gray-700 pt-4 flex items-center justify-between'>
+                                        <div className='border-t border-gray-700 pt-4 flex items-center justify-between select-none'>
                                             <div className='flex items-center gap-2 text-sm'>
                                                 <Clock className='w-4 h-4'/>
                                                 <span>{item.duration}</span>
@@ -117,10 +117,17 @@ export function Services() {
 
                     </div>
 
-                    <button>
+                    <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-1 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10' 
+                    onClick={scrollPrev} >
                         <ChevronLeft
-                        onClick={scrollPrev} 
-                        className='w-6 h-6 text-gray-600'
+                        className='w-6 h-6 text-gray-600 '
+                        />
+                    </button>
+
+                    <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-8 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10' 
+                    onClick={scrollNext} >
+                        <ChevronRight
+                        className='w-6 h-6 text-gray-600 '
                         />
                     </button>
 
