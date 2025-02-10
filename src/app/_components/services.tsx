@@ -7,7 +7,7 @@ import { title } from 'process'
 
 const services = [
     {
-        title: "Banho & Tosa",
+        title: "Banho e Tosa",
         description: "Inclui banho com produtos especificos para o tipo de pelagem e pele do animal, corte de unhas, limpeza da orelhas e tosa personalizada (higiênica ou estilizada).",
         duration: "1h",
         price: "R$50",
@@ -100,7 +100,7 @@ export function Services() {
                                             </div>
 
                                             <a 
-                                            href="https://wa.me/5599999999999?text=Oi%2C%20quero%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os%20"
+                                            href={`https://wa.me/5599999999999?text=Oi, quero mais informações sobre ${item.title}`}
                                             target='_blank'
                                             className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'
                                             >
