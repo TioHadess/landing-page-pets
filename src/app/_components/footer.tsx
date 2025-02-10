@@ -51,7 +51,8 @@ export function Footer() {
                         <h3 className="text-2xl font-semibold mb-2">Pet shop Dev</h3>
                         <p className="mb-4">Cuidando do seu melho amigo com amor e dedicação.</p>
                         <a 
-                        href="#"
+                        href="https://wa.me/5599999999999?text=Quero%20saber%20mais%20sobre%20o%20PetShop"
+                        target="_blank"
                         className="bg-green-500 px-4 py-2 rounded-md"
                         >
                             Contato via Whatsapp

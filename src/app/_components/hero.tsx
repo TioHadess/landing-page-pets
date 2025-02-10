@@ -31,7 +31,8 @@ export function Hero () {
 
                         <div>
                             <a 
-                            href="#"
+                            href="https://wa.me/5599999999999?text=Quero%20saber%20mais%20sobre%20o%20PetShop"
+                            target='_blank'
                             className=" bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                             >
                                 < WhatsappLogo className='w-5 h-5'/>

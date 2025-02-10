@@ -100,7 +100,8 @@ export function Services() {
                                             </div>
 
                                             <a 
-                                            href="#"
+                                            href="https://wa.me/5599999999999?text=Oi%2C%20quero%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os%20"
+                                            target='_blank'
                                             className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'
                                             >
                                                 <WhatsappLogo className='w-5 h-5'/>
