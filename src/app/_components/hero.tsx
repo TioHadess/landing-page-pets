@@ -25,22 +25,24 @@ export function Hero () {
                 <article className=' grid grid-cols-1 lg:grid-cols-2 gap-8'>
 
                     <div className=' space-y-6'>
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">Seu pet merece cuidado, carinho e atenção especial.</h1>
+                        <h1 data-aos="fade-down" className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">Seu pet merece cuidado, carinho e atenção especial.</h1>
 
-                        <p className=" lg:text-lg">Oferecemos os melhores serviços para garantir bem-estar e a felicidade do seu amigo de quatro patas</p>
+                        <p data-aos="fade-right" className=" lg:text-lg">Oferecemos os melhores serviços para garantir bem-estar e a felicidade do seu amigo de quatro patas</p>
 
                         <div>
                             <a 
                             href="https://wa.me/5599999999999?text=Quero%20saber%20mais%20sobre%20o%20PetShop"
                             target='_blank'
                             className=" bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+                            data-aos="fade-up"
+                            data-aos-delay="500"
                             >
                                 < WhatsappLogo className='w-5 h-5'/>
                                 Contato via Whatsapp
                             </a>
                         </div>
 
-                        <div className="mt-8">
+                        <div data-aos="zoom-in" className="mt-8">
                             <p className="text-sm mb-4"><b className="bg-black text-white px-2 py-1 rounded-md">5%</b> de desconto na primeira compra.</p>
                             
                             <div className='flex mt-4'>
@@ -59,7 +61,7 @@ export function Hero () {
 
                     </div>
 
-                    <div className=' hidden md:block h-full relative'>
+                    <div data-aos="fade-left" className=' hidden md:block h-full relative'>
 
                         <Image 
                         src={dogImg} 
